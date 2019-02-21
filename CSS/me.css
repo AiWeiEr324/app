@@ -1,0 +1,216 @@
+/*头部开始*/
+#header{
+    width:100%;
+    height:1.51rem;
+    background:#f7c003;
+}
+.container{
+    width:7.02rem;
+    margin:0 auto;
+    min-height:1px;
+}
+.circle{
+    width:0.4rem;
+    height:0.4rem;
+    border-radius:0.2rem;
+    background:#fff;
+}
+h2{
+    font-size:0.38rem;
+    letter-spacing:0.038rem;
+    color:#fff;
+}
+.desc{
+    font-size:0.22rem;
+    letter-spacing:0.011rem;
+    color:#000;
+    opacity: 0.6;
+    font-family: "苹方 粗体";
+}
+.price{
+    font-size:0.22rem;
+    letter-spacing:0.009rem;
+    color:#000;
+    opacity:0.6;
+}
+.topBar {
+    /*height:1.51rem;*/
+    height:0.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top:0.25rem;
+    /*align-items: flex-start;*/
+}
+
+.topLeft{
+    display: block;
+    font-size:0.22rem;
+    color:#f7c003;
+    text-align:center;
+    line-height:0.4rem;
+}
+.topLeft i{
+    font-size:0.22rem;
+}
+.topRight{
+    display:block;
+    font-size:0.22rem;
+    color:#f7c003;
+    text-align:center;
+    line-height:0.4rem;
+}
+/*头部结束*/
+/*个人信息开始*/
+#myInfo{
+    width:100%;
+    height:1.78rem;
+    margin-top:-0.5rem;
+    margin-bottom:0.6rem;
+}
+.infoBox{
+    display: block;
+    height:1.78rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(0, 0, 0, 0.33);
+    border-radius: 0.1rem;
+    position: relative;
+}
+#figure{
+    width:4.85rem;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#figure figcaption p i{
+    font-size:0.22rem;
+    color:#000;
+
+}
+.positionRight{
+    position:absolute;
+    right:1.11rem;
+    top:0.4rem;
+}
+/*个人信息结束*/
+/*金钱部分开始*/
+#article{
+    width:100%;
+    height:0.6rem;
+    margin-bottom: 0.24rem;
+}
+.moneyBox{
+    width:5.04rem;
+    height:100%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.moneyBox li{
+    /*width:1.4rem;*/
+    /*height:0.6rem;*/
+}
+.moneyBox li span.solid{
+    float:left;
+    line-height:0.6rem;
+}
+.moneyBox li a{
+    display: block;
+    width:1.4rem;
+    height:0.6rem;
+    float: left;
+    text-align: center;
+}
+.moneyColorHuang{
+    color:#f7c003;
+    opacity: 1;
+}
+/*金钱部分结束*/
+/*内容开始*/
+#main{
+    width:100%;
+    height:7.82rem;
+    background: #ccc;
+    padding-top:0.24rem;
+}
+.mainBox{
+    height:4.24rem;
+}
+.mainBox a{
+    display: block;
+    width:100%;
+    height:0.88rem;
+    margin-bottom:0.24rem;
+    border-radius:0.1rem;
+    background: #fff;
+    position: relative;
+}
+.mainBox a figure{
+    width:2.1rem;
+    height:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.mainBox a figure img{
+    width:0.54rem;
+    height:0.54rem;
+}
+.txt{
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.6);
+    letter-spacing:0.012rem;
+}
+.info{
+    width:0.62rem;
+    height:0.3rem;
+    border-radius:0.15rem;
+    background-color: #ff296f;
+    text-align:center;
+    opacity:1;
+    line-height:0.3rem;
+    color:#fff;
+    position:absolute;
+    right:0.25rem;
+    top:0.29rem;
+}
+.info i{
+    font-size:0.12rem;
+}
+/*内容结束*/
+/*底部开始*/
+#footer{
+    width:100%;
+    height:1.1rem;
+    padding-top:0.1rem;
+    /*border-top:1px solid rgba(0,0,0,0.6);*/
+    background:#fff;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+#footer ul{
+    width:100%;
+    height:1rem;
+    display: flex;
+    justify-content:space-around;
+}
+#footer ul li{
+    width:0.76rem;
+    height:100%;
+}
+#footer ul li a{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#footer ul .active p{
+    color: #f7c003;
+}
+#footer ul li a p{
+    margin-top:0.1rem;
+}
+/*底部结束*/

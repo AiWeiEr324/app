@@ -1,0 +1,158 @@
+/*头部开始*/
+#header{
+    width:100%;
+    height:2.24rem;
+    background:#f7c003;
+    position:relative;
+}
+.container{
+    width:7.02rem;
+    margin:0 auto;
+    min-height:1px;
+}
+.circle{
+    width:0.4rem;
+    height:0.4rem;
+    border-radius:0.2rem;
+    background:#fff;
+}
+.desc{
+    font-size:0.24rem;
+    letter-spacing:0.024rem;
+    color:#000;
+    font-family: "苹方 粗体";
+}
+.price{
+    font-size:0.2rem;
+    letter-spacing:0.018rem;
+    color:#000;
+}
+.topBar {
+    /*height:1.51rem;*/
+    height:0.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top:0.25rem;
+    /*align-items: flex-start;*/
+}
+
+.topLeft{
+    display: block;
+    font-size:0.22rem;
+    color:#f7c003;
+    text-align:center;
+    line-height:0.4rem;
+}
+.topLeft i{
+    font-size:0.22rem;
+}
+
+.topTxt{
+    /*width:4.37rem;*/
+    height:0.91rem;
+    font-size:0.22rem;
+    color:#fff;
+    /*margin-left:0.24rem;*/
+    margin-top:0.75rem;
+}
+.topTxt p span i{
+    font-size:0.22rem;
+}
+.topRight{
+    color:#fff;
+    position:absolute;
+    right:0.16rem;
+    bottom:0.44rem;
+}
+/*头部结束*/
+#bgContent{
+    width:100%;
+    height:83.2%;
+    background-color:#eee;
+    padding-top:0.36rem;
+}
+/*主体开始*/
+#main{
+    width:7.02rem;
+    height:2.12rem;
+    margin:0 auto;
+    margin-bottom:0.6rem;
+}
+.boxContent{
+    height:1.49rem;
+    background:#fff;
+    border-radius:0.1rem;
+    padding-top:0.22rem;
+    box-shadow:0 0.05rem 0.15rem rgba(247,192,3,0.25);
+}
+.marginBottom {
+    margin-bottom: 0.24rem;
+    color:#f7c003;
+}
+.contentLeft{
+    float:left;
+    margin-left:0.23rem;
+    color:#f7c003;
+}
+.contentRight {
+    float: right;
+    margin-right: 0.3rem;
+    color:#f7c003;
+}
+.boxContent hr {
+    width: 6.18rem;
+    background: #fff;
+    border: dashed 0.01rem #030000;
+    opacity: 0.3;
+    margin:0.55rem 0.45rem 0.15rem 0.45rem;
+}
+/*主体结束*/
+/*支付方式开始*/
+#footer{
+    width:100%;
+    height:8rem;
+    position:fixed;
+    bottom:0;
+    background-color:#fff;
+    box-shadow:0 -0.05rem 0.15rem rgba(247,192,3,0.25);
+}
+.mistake{
+    position:absolute;
+    right:0.36rem;
+    top:0.17rem;
+    font-size:0.14rem;
+}
+#footerTop{
+    width:100%;
+    height:0.7rem;
+    font-size:0.28rem;
+    letter-spacing:0.028rem;
+    line-height:0.7rem;
+    text-align: center;
+}
+#footerContent{
+    width:6.79rem;
+    height:7.3rem;
+    margin:0 auto;
+    border-top:0.02rem solid rgba(0,0,0,0.1);
+}
+#footerContent li{
+    width:100%;
+    height:1.46rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footerRight{
+    width:5.68rem;
+    height:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:0.02rem solid rgba(0,0,0,0.1);
+}
+.whImg{
+    width:0.37rem;
+    height:0.37rem;
+}
+/*支付方式结束*/

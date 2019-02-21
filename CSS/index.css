@@ -1,0 +1,427 @@
+.container{
+    width:7.02rem;
+    height:100%;
+    min-height:1px;
+    margin:0 auto;
+}
+/*头部开始*/
+#header{
+    width:100%;
+    height:0.88rem;
+    background:#f7c003;
+    margin-bottom:0.24rem;
+}
+.topBar{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.positionBox{
+    /*width:0.76rem;*/
+    /*height:0.4rem;*/
+    font-size:0.22rem;
+    color:#fff;
+    /*line-height: 0.1rem;*/
+}
+.positionBox i{
+    font-size:0.38rem;
+}
+.searchBox{
+    width:5.08rem;
+    height:0.4rem;
+    border-radius:0.2rem;
+    background:#fff;
+}
+.searchBox i{
+    font-size:0.24rem;
+}
+.icon-sousuo5{
+    margin-left:0.28rem;
+    margin-top:0.08rem;
+    font-size:0.24rem;
+    float:left;
+}
+.searchBox input{
+    margin-left:0.08rem;
+    margin-top:0.07rem;
+    float:left;
+    border:0;
+    outline:none;
+    font-size:0.24rem;
+}
+.icon-paizhao{
+    margin-top:0.08rem;
+    margin-right:0.28rem;
+    float:right;
+}
+.scanBox{
+    width:0.4rem;
+    height:0.4rem;
+    border-radius:0.2rem;
+    background:#fff;
+}
+.scanBox i{
+    margin-top:0.09rem;
+    margin-left:0.09rem;
+    font-size:0.24rem;
+    float:left;
+}
+/*头部结束*/
+/*轮播图开始*/
+#banner{
+    width:100%;
+    height:4.24rem;
+    background:#fff;
+    box-shadow: 0rem 0.15rem 0.3rem 0 rgba(247, 192, 3, 0.22);
+    position:relative;
+    margin-bottom:0.59rem;
+}
+.bannerImg{
+    width:93.6%;
+    height:4rem;
+    position: relative;
+}
+.imgBox{
+    width:100%;
+    height:4rem;
+    position:absolute;
+    left:0;
+    top:0;
+    margin-left:0.24rem;
+}
+.bannerImg li.active{
+    z-index:1;
+}
+.imgBox img{
+    width:100%;
+    height:100%;
+}
+.bannerDots{
+    width:0.98rem;
+    height:0.12rem;
+    position:absolute;
+    top:0.23rem;
+    left:0.5rem;
+    z-index:99;
+    display: flex;
+    justify-content:space-between;
+}
+.bannerDots li{
+    width:0.12rem;
+    height:0.12rem;
+    border-radius:50%;
+    background:#fff;
+}
+.bannerDots li.active{
+    background:#f7c003;
+}
+/*轮播图结束*/
+/*导航部分开始*/
+#navBox{
+    width:100%;
+    height:3.41rem;
+    margin-bottom:0.62rem;
+}
+.listItem {
+    width: 88.07%;
+    height:100%;
+    margin-left:0.48rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:space-between;
+}
+.listItem a{
+    display: block;
+    width:1.22rem;
+    height:1.53rem;
+    /*float:left;*/
+    margin-right:0.55rem;
+    /*margin-bottom:0.3rem;*/
+}
+.desc{
+    font-size:0.22rem;
+    font-family:"苹方 粗体";
+    text-align:center;
+    color:#000;
+    line-height:0.42rem;
+}
+.listItem a div{
+    width:1.22rem;
+    height:1.22rem;
+    border-radius:0.54rem;
+}
+.item1{
+    background-image: linear-gradient(45deg,#f7c003 0%,#f9e190 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    background-image: linear-gradient(45deg,
+    #fbb06d 0%,
+    #f6d1b0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    background-image: linear-gradient(45deg,
+    #fa3f8a 0%,
+    #f79bc0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item4{
+    background-image: linear-gradient(45deg,
+    #f79803 0%,
+    #f7cf8f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item5{
+    background-image: linear-gradient(45deg,
+    #f9ad4b 0%,
+    #f8d4a6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item6{
+    background-image: linear-gradient(45deg,
+    #faa428 0%,
+    #fac375 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item7{
+    background-image: linear-gradient(45deg,
+    #fb4a6b 0%,
+    #fb8097 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item8{
+    background-image: linear-gradient(45deg,
+    #f49820 0%,
+    #f6bd74 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listItem a.margin-right-0{
+    margin-right:0;
+}
+/*导航部分结束*/
+/*推荐部分开始*/
+#recommendBox{
+    width:100%;
+    height:2.33rem;
+    margin-bottom:0.9rem;
+}
+#recommendContent{
+    display: block;
+    width:7.02rem;
+    height:2.33rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contentLeft {
+    width: 3.33rem;
+    height: 2.33rem;
+    background-image:url("../images/01f08a41e716aec5d859cad56e47d96081f3e2ff948c7-NtuUpi_fw658.png");
+    background-size:3.33rem 2.33rem;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.headerContent{
+    width:1.38rem;
+    height:0.58rem;
+    background:#f90863;
+    font-size:0.24rem;
+    font-family: "苹方 粗体";
+    color:#fff;
+    text-align:center;
+    line-height: 0.58rem;
+    border-bottom-right-radius: 0.7rem 1.2rem;
+    /*margin-bottom:0.17rem;*/
+}
+.contentLeft h3{
+    font-size:0.24rem;
+    font-family: "苹方 粗体";
+    color:#000;
+    line-height:0.52rem;
+}
+.margin-left-029{
+    margin-left:0.29rem;
+}
+.price{
+    font-size:0.18rem;
+    color:#000;
+    opacity: 0.6;
+    line-height:0.17rem;
+}
+.btn{
+    width: 0.97rem;
+    height: 0.37rem;
+    background-color: #fb307d;
+    box-shadow: 0 0.05rem 0.1rem 0 #fb307d;
+    border-radius: 0.05rem;
+    font-size:0.18rem;
+    color:#fff;
+    font-family: "苹方 粗体";
+    text-align: center;
+    line-height: 0.37rem;
+    position: absolute;
+    left:0.22rem;
+    bottom:0.52rem;
+}
+.contentRight{
+    width: 3.33rem;
+    height: 2.33rem;
+    border-radius: 0.1rem;
+    background-image:url("../images/259df83d86c5ff30458e0bccc678fd7ec55850d7223f8-0nklDc_fw658.png");
+    background-size:3.33rem 2.33rem;
+    position: relative;
+}
+.contentRight h3{
+    font-size:0.24rem;
+    font-family: "苹方 粗体";
+    color:#000;
+    line-height:0.52rem;
+}
+.bgColor{
+    background-image: linear-gradient(135deg,
+    #7d6d34 0%,
+    #9f8b45 100%);
+}
+.btnColor{
+    background-color: #948f7b;
+    box-shadow: 0rem 0.05rem 0.1rem 0rem
+    #948f7b;
+}
+/*推荐部分结束*/
+/*猜你喜欢开始*/
+#loveBox{
+    width:100%;
+    height:5.15rem;
+    margin-bottom:1.2rem;
+}
+#mainLove{
+    width:6.53rem;
+    height:5.15rem;
+    margin:0 auto;
+}
+#mainLove h3{
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.2);
+    letter-spacing: 0.024rem;
+    text-align: center;
+    margin-bottom:0.27rem;
+}
+.loveContent{
+    width:100%;
+    height:1.51rem;
+    display: block;
+    border-top:1px solid rgba(0,0,0,0.2);
+    position: relative;
+}
+.imgLove{
+    margin-bottom:0.16rem;
+    position: absolute;
+    left:0.16rem;
+    top:0.16rem;
+}
+.loveTxt{
+    width:2.44rem;
+    height:1.22rem;
+    margin-bottom:0.16rem;
+    position: absolute;
+    left:1.54rem;
+    top:0.16rem;
+}
+h2{
+    font-size:0.3rem;
+    color:#000;
+    letter-spacing:0.03rem;
+}
+.txt{
+    font-size:0.20rem;
+    font-family: "苹方 粗体";
+    /*letter-spacing:0.022rem;*/
+    color:#000;
+    opacity:0.6;
+}
+.footerLove{
+    width: 2.6rem;
+    height: 0.23rem;
+    background-color: #ffffff;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #fb307d;
+    font-size: 0.18rem;
+    letter-spacing: 0.018rem;
+    color: #f90863;
+    text-align: center;
+    line-height: 0.23rem;
+    font-family: "苹方 粗体";
+}
+.rightTxt{
+    position:absolute;
+    right:0.41rem;
+    top:0.84rem;
+}
+.borderBad{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #000000;
+    line-height:0.1rem;
+    position:absolute;
+    right:0.19rem;
+    top:0.88rem;
+    text-align: center;
+}
+/*猜你喜欢结束*/
+/*底部开始*/
+#footer{
+    width:100%;
+    height:1.1rem;
+    padding-top:0.1rem;
+    /*border-top:1px solid rgba(0,0,0,0.6);*/
+    background:#fff;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+#footer ul{
+    width:100%;
+    height:1rem;
+    display: flex;
+    justify-content:space-around;
+}
+#footer ul li{
+    width:0.68rem;
+    height:100%;
+}
+#footer ul li a{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#footer ul .active p{
+    color: #f7c003;
+}
+#footer ul li a p{
+    margin-top:0.1rem;
+}
+/*底部结束*/
