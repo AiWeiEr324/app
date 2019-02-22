@@ -235,6 +235,26 @@ h3{
     /*height:0.34rem;*/
     /*border-radius:0.17rem;*/
 /*}*/
+.mainBoxRight{
+    width:1.22rem;
+    height:0.4rem;
+    position:absolute;
+    right:0.24rem;
+    bottom:0.12rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.rightColor{
+    display: block;
+    background-color:#f7c003;
+    color:#fff;
+}
+.rightColor i{
+    float: left;
+    font-size:0.22rem;
+    margin:0.08rem;
+}
 .bottomRight{
     display: block;
     background-color:#f7c003;
@@ -273,6 +293,11 @@ h3{
     opacity: 0.6;
     color:#000;
 }
+.footerContent .active{
+    opacity:1;
+    color:#f7c003;
+    position: relative;
+}
 .footerTxt{
     width:2.4rem;
     height:100%;
@@ -288,9 +313,25 @@ h3{
     text-align:center;
     line-height:0.44rem;
 }
+.btnActive{
+    background-color:#f7c003;
+}
 .fontSize18{
     color:#000;
     opacity: 0.6;
     font-size:0.18rem;
+}
+.redCircle{
+    width:0.16rem;
+    height:0.16rem;
+    border-radius:50%;
+    color:#fff;
+    background-color:#ff296f;
+    position:absolute;
+    top:0;
+    right:-0.07rem;
+    font-size:0.16rem;
+    text-align:center;
+    line-height: 0.16rem;
 }
 /*底部结束*/
